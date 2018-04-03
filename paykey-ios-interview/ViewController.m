@@ -24,6 +24,9 @@
     [self.view addSubview:self.horizontalTableView];
     self.horizontalTableView.dataSource = self;
     self.horizontalTableView.backgroundColor = [UIColor redColor];
+    
+    self.horizontalTableView.cellWidth = 60;
+    [self.horizontalTableView reloadData];
 }
 
 

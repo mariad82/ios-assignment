@@ -22,7 +22,6 @@
 @property (weak)   id<HorizontalTableViewDataSource>    dataSource;
 @property (assign) CGFloat                              cellWidth;
 
-- (UIView*)dequeueCell;
-
-
+- (id)dequeueCell;
+- (void)reloadData;
 @end
